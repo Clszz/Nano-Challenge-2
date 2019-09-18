@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16579FC2332539F004CBCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16579FB2332539F004CBCEC /* AppDelegate.swift */; };
+		E16579FE2332539F004CBCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16579FD2332539F004CBCEC /* ViewController.swift */; };
+		E1657A012332539F004CBCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16579FF2332539F004CBCEC /* Main.storyboard */; };
+		E1657A032332539F004CBCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1657A022332539F004CBCEC /* Assets.xcassets */; };
+		E1657A062332539F004CBCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1657A042332539F004CBCEC /* LaunchScreen.storyboard */; };
+		E1657A0B233253A0004CBCEC /* Nano Challenge 2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E1657A0A233253A0004CBCEC /* Nano Challenge 2 WatchKit App.app */; };
+		E1657A11233253A0004CBCEC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1657A0F233253A0004CBCEC /* Interface.storyboard */; };
+		E1657A13233253A0004CBCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1657A12233253A0004CBCEC /* Assets.xcassets */; };
+		E1657A1A233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E1657A19233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1657A1F233253A0004CBCEC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1657A1E233253A0004CBCEC /* InterfaceController.swift */; };
+		E1657A21233253A0004CBCEC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1657A20233253A0004CBCEC /* ExtensionDelegate.swift */; };
+		E1657A23233253A0004CBCEC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1657A22233253A0004CBCEC /* NotificationController.swift */; };
+		E1657A25233253A1004CBCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1657A24233253A1004CBCEC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1657A0C233253A0004CBCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16579F02332539F004CBCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1657A09233253A0004CBCEC;
+			remoteInfo = "Nano Challenge 2 WatchKit App";
+		};
+		E1657A1B233253A0004CBCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16579F02332539F004CBCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1657A18233253A0004CBCEC;
+			remoteInfo = "Nano Challenge 2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1657A2D233253A1004CBCEC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E1657A1A233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1657A31233253A1004CBCEC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E1657A0B233253A0004CBCEC /* Nano Challenge 2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E16579F82332539F004CBCEC /* Nano Challenge 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16579FB2332539F004CBCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E16579FD2332539F004CBCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1657A002332539F004CBCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1657A022332539F004CBCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1657A052332539F004CBCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1657A072332539F004CBCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1657A0A233253A0004CBCEC /* Nano Challenge 2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1657A10233253A0004CBCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E1657A12233253A0004CBCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1657A14233253A0004CBCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1657A19233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nano Challenge 2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1657A1E233253A0004CBCEC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E1657A20233253A0004CBCEC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E1657A22233253A0004CBCEC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E1657A24233253A1004CBCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1657A26233253A1004CBCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1657A27233253A1004CBCEC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16579F52332539F004CBCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1657A16233253A0004CBCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16579EF2332539F004CBCEC = {
+			isa = PBXGroup;
+			children = (
+				E16579FA2332539F004CBCEC /* Nano Challenge 2 */,
+				E1657A0E233253A0004CBCEC /* Nano Challenge 2 WatchKit App */,
+				E1657A1D233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension */,
+				E16579F92332539F004CBCEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16579F92332539F004CBCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16579F82332539F004CBCEC /* Nano Challenge 2.app */,
+				E1657A0A233253A0004CBCEC /* Nano Challenge 2 WatchKit App.app */,
+				E1657A19233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16579FA2332539F004CBCEC /* Nano Challenge 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E16579FB2332539F004CBCEC /* AppDelegate.swift */,
+				E16579FD2332539F004CBCEC /* ViewController.swift */,
+				E16579FF2332539F004CBCEC /* Main.storyboard */,
+				E1657A022332539F004CBCEC /* Assets.xcassets */,
+				E1657A042332539F004CBCEC /* LaunchScreen.storyboard */,
+				E1657A072332539F004CBCEC /* Info.plist */,
+			);
+			path = "Nano Challenge 2";
+			sourceTree = "<group>";
+		};
+		E1657A0E233253A0004CBCEC /* Nano Challenge 2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E1657A0F233253A0004CBCEC /* Interface.storyboard */,
+				E1657A12233253A0004CBCEC /* Assets.xcassets */,
+				E1657A14233253A0004CBCEC /* Info.plist */,
+			);
+			path = "Nano Challenge 2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		E1657A1D233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E1657A1E233253A0004CBCEC /* InterfaceController.swift */,
+				E1657A20233253A0004CBCEC /* ExtensionDelegate.swift */,
+				E1657A22233253A0004CBCEC /* NotificationController.swift */,
+				E1657A24233253A1004CBCEC /* Assets.xcassets */,
+				E1657A26233253A1004CBCEC /* Info.plist */,
+				E1657A27233253A1004CBCEC /* PushNotificationPayload.apns */,
+			);
+			path = "Nano Challenge 2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16579F72332539F004CBCEC /* Nano Challenge 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1657A32233253A1004CBCEC /* Build configuration list for PBXNativeTarget "Nano Challenge 2" */;
+			buildPhases = (
+				E16579F42332539F004CBCEC /* Sources */,
+				E16579F52332539F004CBCEC /* Frameworks */,
+				E16579F62332539F004CBCEC /* Resources */,
+				E1657A31233253A1004CBCEC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1657A0D233253A0004CBCEC /* PBXTargetDependency */,
+			);
+			name = "Nano Challenge 2";
+			productName = "Nano Challenge 2";
+			productReference = E16579F82332539F004CBCEC /* Nano Challenge 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1657A09233253A0004CBCEC /* Nano Challenge 2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1657A2E233253A1004CBCEC /* Build configuration list for PBXNativeTarget "Nano Challenge 2 WatchKit App" */;
+			buildPhases = (
+				E1657A08233253A0004CBCEC /* Resources */,
+				E1657A2D233253A1004CBCEC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1657A1C233253A0004CBCEC /* PBXTargetDependency */,
+			);
+			name = "Nano Challenge 2 WatchKit App";
+			productName = "Nano Challenge 2 WatchKit App";
+			productReference = E1657A0A233253A0004CBCEC /* Nano Challenge 2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E1657A18233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1657A2A233253A1004CBCEC /* Build configuration list for PBXNativeTarget "Nano Challenge 2 WatchKit Extension" */;
+			buildPhases = (
+				E1657A15233253A0004CBCEC /* Sources */,
+				E1657A16233253A0004CBCEC /* Frameworks */,
+				E1657A17233253A0004CBCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano Challenge 2 WatchKit Extension";
+			productName = "Nano Challenge 2 WatchKit Extension";
+			productReference = E1657A19233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16579F02332539F004CBCEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = 11;
+				TargetAttributes = {
+					E16579F72332539F004CBCEC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					E1657A09233253A0004CBCEC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					E1657A18233253A0004CBCEC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = E16579F32332539F004CBCEC /* Build configuration list for PBXProject "Nano Challenge 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16579EF2332539F004CBCEC;
+			productRefGroup = E16579F92332539F004CBCEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16579F72332539F004CBCEC /* Nano Challenge 2 */,
+				E1657A09233253A0004CBCEC /* Nano Challenge 2 WatchKit App */,
+				E1657A18233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16579F62332539F004CBCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1657A062332539F004CBCEC /* LaunchScreen.storyboard in Resources */,
+				E1657A032332539F004CBCEC /* Assets.xcassets in Resources */,
+				E1657A012332539F004CBCEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1657A08233253A0004CBCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1657A13233253A0004CBCEC /* Assets.xcassets in Resources */,
+				E1657A11233253A0004CBCEC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1657A17233253A0004CBCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1657A25233253A1004CBCEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16579F42332539F004CBCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16579FE2332539F004CBCEC /* ViewController.swift in Sources */,
+				E16579FC2332539F004CBCEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1657A15233253A0004CBCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1657A23233253A0004CBCEC /* NotificationController.swift in Sources */,
+				E1657A21233253A0004CBCEC /* ExtensionDelegate.swift in Sources */,
+				E1657A1F233253A0004CBCEC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1657A0D233253A0004CBCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1657A09233253A0004CBCEC /* Nano Challenge 2 WatchKit App */;
+			targetProxy = E1657A0C233253A0004CBCEC /* PBXContainerItemProxy */;
+		};
+		E1657A1C233253A0004CBCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1657A18233253A0004CBCEC /* Nano Challenge 2 WatchKit Extension */;
+			targetProxy = E1657A1B233253A0004CBCEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E16579FF2332539F004CBCEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1657A002332539F004CBCEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1657A042332539F004CBCEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1657A052332539F004CBCEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E1657A0F233253A0004CBCEC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1657A10233253A0004CBCEC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1657A28233253A1004CBCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1657A29233253A1004CBCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1657A2B233253A1004CBCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7858P7ZUST;
+				INFOPLIST_FILE = "Nano Challenge 2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cls.Nano-Challenge-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		E1657A2C233253A1004CBCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7858P7ZUST;
+				INFOPLIST_FILE = "Nano Challenge 2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cls.Nano-Challenge-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		E1657A2F233253A1004CBCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7858P7ZUST;
+				IBSC_MODULE = Nano_Challenge_2_WatchKit_Extension;
+				INFOPLIST_FILE = "Nano Challenge 2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cls.Nano-Challenge-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		E1657A30233253A1004CBCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7858P7ZUST;
+				IBSC_MODULE = Nano_Challenge_2_WatchKit_Extension;
+				INFOPLIST_FILE = "Nano Challenge 2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cls.Nano-Challenge-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		E1657A33233253A1004CBCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7858P7ZUST;
+				INFOPLIST_FILE = "Nano Challenge 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cls.Nano-Challenge-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1657A34233253A1004CBCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7858P7ZUST;
+				INFOPLIST_FILE = "Nano Challenge 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cls.Nano-Challenge-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16579F32332539F004CBCEC /* Build configuration list for PBXProject "Nano Challenge 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1657A28233253A1004CBCEC /* Debug */,
+				E1657A29233253A1004CBCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1657A2A233253A1004CBCEC /* Build configuration list for PBXNativeTarget "Nano Challenge 2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1657A2B233253A1004CBCEC /* Debug */,
+				E1657A2C233253A1004CBCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1657A2E233253A1004CBCEC /* Build configuration list for PBXNativeTarget "Nano Challenge 2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1657A2F233253A1004CBCEC /* Debug */,
+				E1657A30233253A1004CBCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1657A32233253A1004CBCEC /* Build configuration list for PBXNativeTarget "Nano Challenge 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1657A33233253A1004CBCEC /* Debug */,
+				E1657A34233253A1004CBCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16579F02332539F004CBCEC /* Project object */;
+}
